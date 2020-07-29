@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const post_title = post.frontmatter.title || post.fields.slug
