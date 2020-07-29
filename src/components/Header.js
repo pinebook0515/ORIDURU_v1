@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import logo from "../images/logo.png"
 import logo_wh from "../images/logo_wh.png"
 

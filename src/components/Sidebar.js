@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import author from "../images/author.png"
 import twitter_icon from "../images/twitter_icon.png"
 import qiita_icon from "../images/qiita_icon.png"
