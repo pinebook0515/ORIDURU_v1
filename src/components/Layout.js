@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Router } from "@reach/router"
-
 import Header from "./Header"
 import TabMenu from "./TabMenu"
 import Sidebar from "./Sidebar"
