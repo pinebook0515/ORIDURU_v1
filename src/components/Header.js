@@ -6,7 +6,6 @@ import logo_wh from "../images/logo_wh.png"
 const onClick = () => {
   const button = document.querySelector(".bl_hamburgerBtn")
   const menu = document.querySelector(".bl_hamburgerMenu_wrapper")
-
   button.classList.toggle("js-active")
   menu.classList.toggle("js-open")
 }
