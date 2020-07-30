@@ -1,15 +1,14 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Image from "gatsby-image"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const post_title = post.frontmatter.title || post.fields.slug
-  const createdAt = post.frontmatter.createdAt
-  const updatedAt = post.frontmatter.updatedAt
+  const date = post.frontmatter.date
   const description = post.frontmatter.description
   const category = post.frontmatter.categories
   const thumbnail = post.frontmatter.thumbnail.childImageSharp.fluid
@@ -26,16 +25,8 @@ const BlogPostTemplate = ({ data, location }) => {
       <div className="bl_postDate_wrapper fl_start">
         <time className="bl_postDate fl_alignCenter">
           <span className="bl_postDateIcon material-icons">date_range</span>
-          {createdAt}
+          {date}
         </time>
-        {updatedAt ? (
-          <time className="bl_postDate fl_alignCenter">
-            <span className="bl_postDateIcon material-icons">update</span>
-            {updatedAt}
-          </time>
-        ) : (
-          ""
-        )}
       </div>
       <h1 className="bl_postTitle">{post_title}</h1>
 
@@ -77,8 +68,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        createdAt(formatString: "YYYY.MM.DD")
-        updatedAt(formatString: "YYYY.MM.DD")
+        date(formatString: "YYYY.MM.DD")
         description
         thumbnail {
           childImageSharp {

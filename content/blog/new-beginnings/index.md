@@ -1,7 +1,6 @@
 ---
 title: New Beginnings
-createdAt: "2015-05-15"
-updatedAt: "2015-05-30"
+date: "2015-05-15"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 thumbnail: ./post_thumbnail.png
 categories: ["book", "essay"]
