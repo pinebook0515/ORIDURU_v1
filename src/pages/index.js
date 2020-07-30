@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
             key={node.fields.slug}
             title={title}
             slug={node.fields.slug}
-            createdAt={createdAt}
+            date={createdAt}
             categories={categories}
             thumbnail={thumbnail}
           />
