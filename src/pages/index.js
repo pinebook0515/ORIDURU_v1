@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
-        const date = node.frontmatter.date
+        const createdAt = node.frontmatter.createdAt
         const categories = node.frontmatter.categories
         const thumbnail = node.frontmatter.thumbnail.childImageSharp.fluid
         return (
@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
             key={node.fields.slug}
             title={title}
             slug={node.fields.slug}
-            date={date}
+            date={createdAt}
             categories={categories}
             thumbnail={thumbnail}
           />
@@ -40,7 +40,9 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___createdAt], order: DESC }
+    ) {
       edges {
         node {
           excerpt
@@ -48,7 +50,8 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "YYYY.MM.DD")
+            createdAt(formatString: "YYYY.MM.DD")
+            updatedAt(formatString: "YYYY.MM.DD")
             title
             categories
             description

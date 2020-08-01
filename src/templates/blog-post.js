@@ -8,7 +8,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const post_title = post.frontmatter.title || post.fields.slug
-  const date = post.frontmatter.date
+  const createdAt = post.frontmatter.createdAt
+  const updatedAt = post.frontmatter.updatedAt
   const description = post.frontmatter.description
   const category = post.frontmatter.categories
   const thumbnail = post.frontmatter.thumbnail.childImageSharp.fluid
@@ -25,7 +26,11 @@ const BlogPostTemplate = ({ data, location }) => {
       <div className="bl_postDate_wrapper fl_start">
         <time className="bl_postDate fl_alignCenter">
           <span className="bl_postDateIcon material-icons">date_range</span>
-          {date}
+          {createdAt}
+        </time>
+        <time className="bl_postDate fl_alignCenter">
+          <span className="bl_postDateIcon material-icons">update</span>
+          {updatedAt}
         </time>
       </div>
       <h1 className="bl_postTitle">{post_title}</h1>
@@ -68,7 +73,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "YYYY.MM.DD")
+        createdAt(formatString: "YYYY.MM.DD")
+        updatedAt(formatString: "YYYY.MM.DD")
         description
         thumbnail {
           childImageSharp {

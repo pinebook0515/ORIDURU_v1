@@ -12,7 +12,7 @@ const Category = ({ data, location, pageContext }) => {
       <SEO title={categoryName.toUpperCase()} />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
-        const date = node.frontmatter.date
+        const createdAt = node.frontmatter.createdAt
         const categories = node.frontmatter.categories
         const thumbnail = node.frontmatter.thumbnail.childImageSharp.fluid
         return (
@@ -20,7 +20,7 @@ const Category = ({ data, location, pageContext }) => {
             key={node.fields.slug}
             title={title}
             slug={node.fields.slug}
-            date={date}
+            date={createdAt}
             categories={categories}
             thumbnail={thumbnail}
           />
@@ -40,7 +40,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___createdAt], order: DESC }
       filter: { frontmatter: { categories: { in: [$cat] } } }
     ) {
       totalCount
@@ -50,7 +50,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "YYYY.MM.DD")
+            createdAt(formatString: "YYYY.MM.DD")
             title
             categories
             description

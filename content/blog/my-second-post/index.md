@@ -1,6 +1,7 @@
 ---
 title: My Second Post!
-date: "2015-05-15"
+createdAt: "2015-05-15"
+updatedAt: "2015-05-30"
 thumbnail: ./post_thumbnail.png
 categories: ["life", "book"]
 ---

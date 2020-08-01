@@ -1,6 +1,7 @@
 ---
 title: Hello World
-date: "2015-05-15"
+createdAt: "2015-05-15"
+updatedAt: "2015-05-30"
 description: "Hello World"
 thumbnail: ./salty_egg.jpg
 categories: ["tech", "life"]
