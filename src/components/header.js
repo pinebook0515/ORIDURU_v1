@@ -56,7 +56,7 @@ const Header = () => {
                   <span className="bl_hamburgerMenu_catName">TECH</span>
                 </div>
                 <span className="bl_hamburgerMenu_text bl_hamburgerMenu_text__white">
-                  技術に関する気付きのアウトプット
+                  技術に関する気づきやアウトプット
                 </span>
               </Link>
             </li>
@@ -100,7 +100,7 @@ const Header = () => {
                   <span className="bl_hamburgerMenu_catName">BOOK</span>
                 </div>
                 <span className="bl_hamburgerMenu_text bl_hamburgerMenu_text__white">
-                  書評ダミーテキスト
+                  読んだ本から得た気づき
                 </span>
               </Link>
             </li>
@@ -122,7 +122,7 @@ const Header = () => {
                   <span className="bl_hamburgerMenu_catName">ESSAY</span>
                 </div>
                 <span className="bl_hamburgerMenu_text bl_hamburgerMenu_text__white">
-                  日々気付いたこと
+                  自分の考えや意見
                 </span>
               </Link>
             </li>

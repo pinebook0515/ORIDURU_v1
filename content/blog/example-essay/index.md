@@ -1,7 +1,7 @@
 ---
 title: ESSAYカテゴリーで書くこと
-date: "2015-05-15"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+date: "2015-08-16"
+description: この記事はESSAYカテゴリーで書く内容について説明しています。
 thumbnail: ./post_thumbnail.png
 categories: ["essay"]
 ---
