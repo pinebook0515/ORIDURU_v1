@@ -104,7 +104,7 @@ const Sidebar = ({ pathName }) => {
                   <span className="bl_menu_catName">TECH</span>
                 </SidebarCategoryItem>
                 <span className="bl_menu_text">
-                  技術に関する気付きのアウトプット
+                  技術に関する気付きやアウトプット
                 </span>
               </Link>
             </li>
@@ -153,7 +153,7 @@ const Sidebar = ({ pathName }) => {
                   </svg>
                   <span className="bl_menu_catName">BOOK</span>
                 </SidebarCategoryItem>
-                <span className="bl_menu_text">書評ダミーテキスト</span>
+                <span className="bl_menu_text">読んだ本から得た気づき</span>
               </Link>
             </li>
             <li className="bl_menu_item">
@@ -176,7 +176,7 @@ const Sidebar = ({ pathName }) => {
                   </svg>
                   <span className="bl_menu_catName">ESSAY</span>
                 </SidebarCategoryItem>
-                <span className="bl_menu_text">日々気付いたこと</span>
+                <span className="bl_menu_text">自分の考えや意見</span>
               </Link>
             </li>
           </ul>

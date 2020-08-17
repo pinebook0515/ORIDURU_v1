@@ -326,10 +326,9 @@ post page
   font-size: 1.8rem;
   padding-bottom: 4px;
   border-bottom: 5px solid #728885;
-}
-.bl_postContent h2:not(:first-of-type) {
   margin-top: 32px;
 }
+
 .bl_postContent h3 {
   margin-top: 32px;
   font-size: 1.8rem;
@@ -374,6 +373,9 @@ post page
   margin-top: 32px;
   background-color: #f5f5f5;
   padding: 24px;
+}
+.bl_postContent blockquote p {
+  margin-top: 0;
 }
 .bl_postContent blockquote::before {
   content: "“";
