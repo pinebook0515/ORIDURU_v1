@@ -321,6 +321,9 @@ post page
 .bl_postContent {
   margin-top: 64px;
 }
+.bl_postContent .gatsby-resp-image-wrapper {
+  max-width: none !important;
+}
 .bl_postContent h2 {
   display: inline-block;
   font-size: 1.8rem;
@@ -366,6 +369,25 @@ post page
 }
 .bl_postContent strong {
   background: linear-gradient(transparent 50%, #f7ecba 50%);
+}
+.bl_postContent ul,
+.bl_postContent ol {
+  margin-top: 32px;
+  list-style-position: inside;
+}
+.bl_postContent ul {
+  list-style-type: disc;
+}
+.bl_postContent ol {
+  list-style-type: decimal;
+}
+.bl_postContent ul li,
+.bl_postContent ol li {
+  font-size: 1.4rem;
+}
+.bl_postContent ul li + li,
+.bl_postContent ol li + li {
+  margin-top: 8px;
 }
 .bl_postContent blockquote {
   position: relative;
