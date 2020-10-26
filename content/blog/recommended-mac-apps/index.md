@@ -1,9 +1,9 @@
 ---
 title: 絶対に入れるべきオススメMacアプリ7選
-date: "2020-08-21"
-description: 記事の説明
+date: "2020-10-19"
+description: この記事は、絶対に入れるべきオススメのMacアプリを厳選して7つ紹介しています。
 thumbnail: ./post_thumbnail.png
-categories: ["essay"]
+categories: ["book"]
 ---
 
 こんにちは、マツモトタクムです。
