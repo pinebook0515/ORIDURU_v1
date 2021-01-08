@@ -6,7 +6,7 @@ thumbnail: ./post_thumbnail.png
 categories: ["book"]
 ---
 
-こんにちは、マツモトタクムです。
+こんにちは、まつです。
 
 今回は[「課題発見」の究極ツール　哲学シンキング](https://www.amazon.co.jp/dp/B084MGNTXF/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)という本を紹介します。
 

@@ -6,7 +6,7 @@ thumbnail: ./post_thumbnail.png
 categories: ["tech", "life"]
 ---
 
-こんにちは、マツモトタクムです。
+こんにちは、まつです。
 
 さて、今回は仕事における生産性について書きたいと思います。
 

@@ -30,9 +30,7 @@ const Sidebar = ({ pathName }) => {
             className="bl_subinfo_authorImg el_authorImg"
           />
           <div className="bl_subinfo_authorInfoBody">
-            <p className="bl_subinfo_authorName el_authorName">
-              マツモトタクム
-            </p>
+            <p className="bl_subinfo_authorName el_authorName">まつ</p>
             <p className="bl_subinfo_text">
               株式会社divでTECH
               CAMPの教材開発をする一方、副業でWEBエンジニアをしています。考えること作ること書くことが好きです。
