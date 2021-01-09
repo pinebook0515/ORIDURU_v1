@@ -32,8 +32,7 @@ const Sidebar = ({ pathName }) => {
           <div className="bl_subinfo_authorInfoBody">
             <p className="bl_subinfo_authorName el_authorName">まつ</p>
             <p className="bl_subinfo_text">
-              株式会社divでTECH
-              CAMPの教材開発をする一方、副業でWEBエンジニアをしています。考えること作ること書くことが好きです。
+              渋谷のITベンチャー社員。日々学んだことを情報発信します。副業でエンジニアやってます。
             </p>
             <div className="bl_subinfo_snsIcon_wrapper fl_center">
               <a
