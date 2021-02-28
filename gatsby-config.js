@@ -75,7 +75,19 @@ module.exports = {
         icon: `src/images/logo_icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          runtimeCaching: [
+            {
+              urlPattern: /^https?:.*\/page-data\/.*\.json/,
+              handler: 'NetworkFirst',
+            },
+          ],
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-google-fonts",
