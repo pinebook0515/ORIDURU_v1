@@ -21,8 +21,9 @@ const BlogPostTemplate = ({ data, location }) => {
         pagetitle={postTitle}
         pagedesc={description}
         pagepath={location.pathname}
+        pageimg={thumbnailUrl}
         blogimg={thumbnailUrl}
-      />
+        />
       <div className="bl_thumbnail">
         <Img fluid={thumbnail} />
       </div>

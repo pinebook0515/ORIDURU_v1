@@ -5,9 +5,6 @@ description: この記事は『課題発見」の究極ツール　哲学シン�
 thumbnail: ./post_thumbnail.png
 categories: ["book"]
 ---
-
-こんにちは、まつです。
-
 今回は[「課題発見」の究極ツール　哲学シンキング](https://www.amazon.co.jp/dp/B084MGNTXF/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)という本を紹介します。
 
 どんな本かを簡単に言ってしまうと、「正解のない問題に対してどのように思考を深めて解決策を導き出すか」を教えてくれる、いわゆる「問題解決」のジャンルに分類される本です。

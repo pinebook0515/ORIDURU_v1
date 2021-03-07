@@ -32,7 +32,7 @@ const Sidebar = ({ pathName }) => {
           <div className="bl_subinfo_authorInfoBody">
             <p className="bl_subinfo_authorName el_authorName">まつ</p>
             <p className="bl_subinfo_text">
-              渋谷のITベンチャー社員。日々学んだことを情報発信します。副業でエンジニアやってます。
+            習慣の力で人生を変えるサラリーマン<br/><br/>朝活・読書・勉強を習慣化しニートからエンジニアに転職→テックキャンプの教材開発リーダーに。習慣化に役立つことを発信します。
             </p>
             <div className="bl_subinfo_snsIcon_wrapper fl_center">
               <a
@@ -42,13 +42,13 @@ const Sidebar = ({ pathName }) => {
               >
                 <img src={twitter_icon} className="bl_subinfo_snsIconImg" />
               </a>
-              <a
+              {/* <a
                 href="https://qiita.com/takumu_matsumoto"
                 className="bl_subinfo_snsIcon"
                 target="_blank"
               >
                 <img src={qiita_icon} className="bl_subinfo_snsIconImg" />
-              </a>
+              </a> */}
               {/* <a href="" className="bl_subinfo_snsIcon" target="_blank">
                 <img src={github_icon} className="bl_subinfo_snsIconImg" />
               </a> */}
@@ -95,7 +95,7 @@ const Sidebar = ({ pathName }) => {
                   <span className="bl_menu_catName">HABIT</span>
                 </SidebarCategoryItem>
                 <span className="bl_menu_text">
-                  ライフハックや毎日の生活に役立つこと
+                  習慣化に役立つこと
                 </span>
               </Link>
             </li>
