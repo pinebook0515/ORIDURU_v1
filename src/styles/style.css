@@ -312,7 +312,7 @@ post page
   vertical-align: text-bottom;
 }
 .bl_postTitle {
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   color: #333;
   margin-top: 8px;
 }
@@ -327,7 +327,7 @@ post page
 }
 .bl_postContent h2 {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   padding-bottom: 4px;
   border-bottom: 5px solid #728885;
   margin-top: 32px;
@@ -356,8 +356,8 @@ post page
   flex-shrink: 0;
 }
 .bl_postContent p {
-  margin-top: 32px;
-  font-size: 1.4rem;
+  margin-top: 28px;
+  font-size: 1.6rem;
   line-height: 2;
 }
 .bl_postContent a {
@@ -385,7 +385,7 @@ post page
 }
 .bl_postContent ul li,
 .bl_postContent ol li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .bl_postContent ul li + li,
 .bl_postContent ol li + li {
