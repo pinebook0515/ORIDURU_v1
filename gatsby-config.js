@@ -6,7 +6,7 @@ module.exports = {
       name: `Takumu Matsumoto`,
       summary: `who lives and works in Tokyo as an Web Developer.`,
     },
-    siteUrl: `https://oriduru.netlify.app`, // デプロイ後修正する
+    siteUrl: `https://oriduru.blog`, // デプロイ後修正する
     lang: `ja`,
     locale: `ja_JP`,
     social: {
