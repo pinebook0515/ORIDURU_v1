@@ -233,33 +233,26 @@ index page
   margin-top: 24px;
 }
 .bl_media_imgWrapper {
-  width: 72px;
-  flex-shrink: 0;
+  width: 100%;
 }
 .bl_media_img {
 }
 .bl_media_body {
-  position: relative;
   width: 100%;
-  margin-left: 16px;
+  margin-top: 16px;
 }
 .bl_media_title {
   font-size: 1.6rem;
-  margin-bottom: 2.4rem;
 }
 .bl_media_link {
   color: #555;
 }
-.bl_media_labels {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+.bl_media_subInfo {
   margin-top: 8px;
 }
+.bl_media_labels {
+}
 .bl_media_date {
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 .bl_media_pagination {
   margin-top: 48px;
@@ -293,8 +286,6 @@ post page
 .bl_thumbnail {
 }
 .bl_thumbnail_img {
-  width: 72px;
-  height: 72px;
 }
 .bl_postDate_wrapper {
   margin-top: 48px;
@@ -672,12 +663,25 @@ Footer
 
   .bl_media {
     padding: 24px 16px;
+    display: flex;
+    justify-content: flex-start;
   }
   .bl_media_imgWrapper {
     width: 160px;
   }
   .bl_media_title {
-    font-size: 2rem;
+    font-size: 2.0rem;
+  }
+  .bl_media_body {
+    position: relative;
+    width: 100%;
+    margin-left: 16px;
+    margin-top: 0;
+  }
+  .bl_media_subInfo {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 
   /*——————————————————————

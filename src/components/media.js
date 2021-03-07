@@ -4,13 +4,15 @@ import Image from "gatsby-image"
 
 const Media = ({ title, slug, date, thumbnail, categories }) => {
   return (
-    <div className="bl_media fl_start">
+    <div className="bl_media">
       <figure className="bl_media_imgWrapper">
-        <Image
-          fluid={thumbnail}
-          objectFit="contain"
-          className="bl_thumbnail_img"
-        />
+        <Link to={slug}>
+          <Image
+            fluid={thumbnail}
+            objectFit="contain"
+            className="bl_thumbnail_img"
+          />
+        </Link>
       </figure>
       <div className="bl_media_body">
         <h2 className="bl_media_title">
@@ -18,6 +20,8 @@ const Media = ({ title, slug, date, thumbnail, categories }) => {
             {title}
           </Link>
         </h2>
+        
+        <div className="bl_media_subInfo fl_spaceBetween">
         <div className="bl_media_labels fl_start">
           {categories.map(cat => {
             return (
@@ -28,6 +32,7 @@ const Media = ({ title, slug, date, thumbnail, categories }) => {
           })}
         </div>
         <span className="bl_media_date el_date">{date}</span>
+        </div>
       </div>
     </div>
   )
