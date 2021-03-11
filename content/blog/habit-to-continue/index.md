@@ -3,7 +3,7 @@ title: なぜあなたは努力を続けられないのか？
 date: "2021-03-12"
 description: この記事は『30日で人生を変える「続ける」習慣』に基づいた習慣化に挫折する原因とその対策について書いています。
 thumbnail: ./post_thumbnail.png
-categories: ["habit"]
+categories: ["habit", "book"]
 ---
 
 自分でやりたいと思ってはじめたことなのにすぐに挫折してしまうのはなぜでしょうか？
