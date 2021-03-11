@@ -364,15 +364,16 @@ post page
 }
 .bl_postContent ul,
 .bl_postContent ol {
-  margin-top: 32px;
-  padding: 1.5rem;
+  margin-top: 12px;
   list-style-position: outside;
 }
 .bl_postContent ul {
   list-style-type: disc;
+  padding: 0 1.5rem;
 }
 .bl_postContent ol {
   list-style-type: decimal;
+  padding: 0 2.2rem;
 }
 .bl_postContent ul li,
 .bl_postContent ol li {
@@ -414,6 +415,10 @@ post page
   border-style: solid;
   border-width: 6px 12px 6px 0;
   border-color: transparent #555555 transparent transparent;
+}
+
+.iframely-embed {
+  margin: 48px 0 32px;
 }
 
 /*——————————————————————

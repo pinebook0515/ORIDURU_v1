@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Iframely from "../components/iframely"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -26,6 +27,7 @@ const BlogPostTemplate = ({ data, location }) => {
         pageimg={thumbnailUrl}
         blogimg={thumbnailUrl}
         />
+      <Iframely />
       <div className="bl_thumbnail">
         <Img fluid={thumbnail} />
       </div>
