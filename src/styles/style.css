@@ -454,7 +454,7 @@ Sidebar
 }
 .bl_subinfo_text {
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .bl_subinfo_snsIcon_wrapper {
   margin-top: 24px;
@@ -542,7 +542,8 @@ elements
 }
 .el_authorName {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   letter-spacing: 0.05em;
 }
 .el_label {
