@@ -226,7 +226,7 @@ index page
   width: 100%;
 }
 .bl_media {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   padding: 12px 8px;
 }
 .bl_media + .bl_media {

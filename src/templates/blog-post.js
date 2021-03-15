@@ -16,8 +16,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const thumbnail = post.frontmatter.thumbnail.childImageSharp.fluid
   const thumbnailUrl = thumbnail.src
 
-  console.log(data.site.siteMetadata);
-
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
