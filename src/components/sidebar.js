@@ -32,7 +32,7 @@ const Sidebar = ({ pathName }) => {
           <div className="bl_subinfo_authorInfoBody">
             <p className="bl_subinfo_authorName el_authorName">まつ</p>
             <p className="bl_subinfo_text">
-            習慣の力で人生を変えるサラリーマン<br/><br/>朝活・読書・勉強を習慣化しニートからエンジニアに転職→テックキャンプの教材開発リーダーに。習慣化に役立つことを発信します。
+            習慣の力で人生を変えるサラリーマン<br/><br/>朝活・読書・勉強を習慣化しニートからエンジニアに転職→テックキャンプの教材開発リーダーに。習慣化・仕事に役立つことを発信します。
             </p>
             <div className="bl_subinfo_snsIcon_wrapper fl_center">
               <a
