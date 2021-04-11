@@ -1,7 +1,7 @@
 ---
 title: 【知らなきゃ損！】朝活を習慣化する方法
-date: "2021-03-27"
-description: この記事はマコなり社長がYoutubeで発信している「仕事で圧倒的に生産性を上げる方法」について株式会社divのイチ社員目線で書いた記事です。
+date: "2021-03-28"
+description: この記事は朝活を習慣化させる方法について書いた記事です。
 thumbnail: ./post_thumbnail.png
 categories: ["habit"]
 ---
