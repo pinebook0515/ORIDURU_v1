@@ -30,7 +30,7 @@ const Sidebar = ({ pathName }) => {
             className="bl_subinfo_authorImg el_authorImg"
           />
           <div className="bl_subinfo_authorInfoBody">
-            <p className="bl_subinfo_authorName el_authorName">まつ</p>
+            <p className="bl_subinfo_authorName el_authorName">マツモト タクム</p>
             <p className="bl_subinfo_text">
               IT教育ベンチャーでWEB制作してます💻 / デザイン / 習慣化 / 読書 / ライフハック / 朝活 / サウナ / 好きな言葉は「今この瞬間にやるべきことは何か？」
             </p>
