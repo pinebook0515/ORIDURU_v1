@@ -32,11 +32,11 @@ const Sidebar = ({ pathName }) => {
           <div className="bl_subinfo_authorInfoBody">
             <p className="bl_subinfo_authorName el_authorName">まつ</p>
             <p className="bl_subinfo_text">
-            習慣の力で人生を変えるサラリーマン<br/><br/>朝活・読書・勉強を習慣化しニートからエンジニアに転職→テックキャンプの教材開発リーダーに。習慣化・仕事に役立つことを発信します。
+              IT教育ベンチャーでWEB制作してます💻 / デザイン / 習慣化 / 読書 / ライフハック / 朝活 / サウナ / 好きな言葉は「今この瞬間にやるべきことは何か？」
             </p>
             <div className="bl_subinfo_snsIcon_wrapper fl_center">
               <a
-                href="https://twitter.com/Pinebook0515"
+                href="https://twitter.com/MatsumotoTakumu"
                 className="bl_subinfo_snsIcon"
                 target="_blank"
               >
@@ -80,7 +80,7 @@ const Sidebar = ({ pathName }) => {
         <p className="bl_subinfo_title">CATEGORY</p>
         <nav className="bl_menu_wrapper">
           <ul className="bl_menu">
-          <li className="bl_menu_item">
+            <li className="bl_menu_item">
               <Link
                 to="/category/habit/"
                 className="bl_menu_link fl_start fl_alignCenter"
@@ -90,7 +90,7 @@ const Sidebar = ({ pathName }) => {
                   catLink="/category/habit/"
                 >
                   <svg className="bl_menu_icon" width="15" height="17" viewBox="0 0 324 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M324 324V72C324 52.146 307.854 36 288 36H252V0H216V36H108V0H72V36H36C16.146 36 0 52.146 0 72V324C0 343.854 16.146 360 36 360H288C307.854 360 324 343.854 324 324ZM108 288H72V252H108V288ZM108 216H72V180H108V216ZM180 288H144V252H180V288ZM180 216H144V180H180V216ZM252 288H216V252H252V288ZM252 216H216V180H252V216ZM288 126H36V90H288V126Z"/>
+                    <path d="M324 324V72C324 52.146 307.854 36 288 36H252V0H216V36H108V0H72V36H36C16.146 36 0 52.146 0 72V324C0 343.854 16.146 360 36 360H288C307.854 360 324 343.854 324 324ZM108 288H72V252H108V288ZM108 216H72V180H108V216ZM180 288H144V252H180V288ZM180 216H144V180H180V216ZM252 288H216V252H252V288ZM252 216H216V180H252V216ZM288 126H36V90H288V126Z" />
                   </svg>
                   <span className="bl_menu_catName">HABIT</span>
                 </SidebarCategoryItem>
