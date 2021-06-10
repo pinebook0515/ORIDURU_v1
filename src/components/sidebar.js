@@ -35,13 +35,13 @@ const Sidebar = ({ pathName }) => {
               IT教育ベンチャーでWEB制作してます💻 / デザイン / 習慣化 / 読書 / ライフハック / 朝活 / サウナ / 好きな言葉は「今この瞬間にやるべきことは何か？」
             </p>
             <div className="bl_subinfo_snsIcon_wrapper fl_center">
-              <a
+              {/* <a
                 href="https://twitter.com/MatsumotoTakumu"
                 className="bl_subinfo_snsIcon"
                 target="_blank"
               >
                 <img src={twitter_icon} className="bl_subinfo_snsIconImg" />
-              </a>
+              </a> */}
               {/* <a
                 href="https://qiita.com/takumu_matsumoto"
                 className="bl_subinfo_snsIcon"
